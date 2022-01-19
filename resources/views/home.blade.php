@@ -3,7 +3,7 @@
 
 @section('main.content')
     
-    <main>
+    <main class="container" >
         <div>
             <div>
                 <img src="{{ asset('images/footer-youtube.png')}}" alt="">

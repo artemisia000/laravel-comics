@@ -1,4 +1,8 @@
 
+@extends('layouts.main')
+
+@section('main.content')
+
 <header>
     <div class="container">
         <a href=" {{ route('home') }} ">
@@ -17,3 +21,5 @@
         </nav>
     </div>
 </header>
+
+@endsection

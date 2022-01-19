@@ -11,8 +11,11 @@
     <title>Document</title>
 </head>
 <body>
-    
+
     @include('partials.header');
+    <header>
+        @yield('main.content')
+    </header>
 
     <main>
         @yield('main.content')
@@ -20,6 +23,9 @@
 
 
     @include('partials.footer');
+    <footer>
+        @yield('main.content')
+    </footer>
     
 </body>
 </html>

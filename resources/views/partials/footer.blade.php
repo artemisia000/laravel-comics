@@ -1,3 +1,6 @@
+@extends ('layouts.main')
+
+@section('main.content')
 
 <footer>
     <div class="container">
@@ -41,3 +44,5 @@
         </div>
     </div>
 </footer>
+
+@endsection
