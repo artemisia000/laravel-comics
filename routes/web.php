@@ -234,7 +234,7 @@ Route::get('/home', function () {
         'comics' => $comics,
     ]); 
     
-})->name('homes');
+})->name('home');
 
 Route::get('/', function () {
     return view('home');
@@ -244,6 +244,8 @@ Route::get('/', function () {
 Route::get('/news', function () {
     return view('news');
 })->name('news');
+
+
 
 
 
