@@ -1,23 +1,18 @@
 
 <header>
     <div class="container">
-        <a href="">
-            logo
+        <a href=" {{ route('home') }} ">
+            <img src="{{ asset('images/dc-logo.png')}}" alt="Logo DC">
         </a>
 
         <nav>
             <ul>
                 <li>
-                    <a href="">
-                        COMICS
-                    </a>
+                    <a href="{{ route('comics') }}">COMICS</a>
                 </li>
                 <li>
-                    <a href="">
-                        NEWS
-                    </a>
+                    <a href="{{ route('news') }}">NEWS</a>
                 </li>
-
             </ul>
         </nav>
     </div>
