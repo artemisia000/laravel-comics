@@ -1,7 +1,5 @@
 
-@extends('layouts.main')
 
-@section('main.content')
 
 <header>
     <div class="container">
@@ -22,4 +20,3 @@
     </div>
 </header>
 
-@endsection
