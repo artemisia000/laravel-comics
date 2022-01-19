@@ -8,7 +8,7 @@
         <nav>
             <ul>
                 <li>
-                    <a href="{{ route('comics') }}">COMICS</a>
+                    <a href="">COMICS</a>
                 </li>
                 <li>
                     <a href="{{ route('news') }}">NEWS</a>
