@@ -19,10 +19,11 @@ body{
 }
 
 main{
-    background-color:$back-1;
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
+    height: 900px;
+    background-color:$back-1;
+ 
+    
 }
 
 footer{

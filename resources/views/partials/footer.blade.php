@@ -3,7 +3,7 @@
 <footer>
     <div class="container foot">
 
-        <div>
+        <div class="btn" >
             <a href="">
                 SIGN-UP NOW!
             </a>
