@@ -1,7 +1,7 @@
 
 
 <footer>
-    <div class="container">
+    <div class="container foot">
 
         <div>
             <a href="">
@@ -9,7 +9,7 @@
             </a>
         </div>
 
-        <div>
+        <div class="social" >
             <div>
                 FOLLOW US
             </div>

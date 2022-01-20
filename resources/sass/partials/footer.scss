@@ -1,0 +1,17 @@
+
+.foot{
+    justify-content: space-between;
+    align-items: center;
+
+
+    .social{
+        display: flex;
+
+        first-child{
+            color: $back-col;
+            
+        }
+    }
+
+}
+

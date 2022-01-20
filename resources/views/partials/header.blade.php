@@ -10,13 +10,20 @@
         <nav>
             <ul>
                 <li>
-                    <a href="">COMICS</a>
+                    <a href="{{ route('home') }}">
+                   
+                    COMICS
+                    </a>
                 </li>
                 <li>
-                    <a href="{{ route('news') }}">NEWS</a>
+                    <a href="{{ route('news') }}">
+                    
+                    NEWS
+                    </a>
                 </li>
             </ul>
         </nav>
     </div>
+
 </header>
 

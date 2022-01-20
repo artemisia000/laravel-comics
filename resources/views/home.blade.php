@@ -10,11 +10,9 @@
               <div class="card">
                   <img src=" {{ $comic['thumb'] }} " alt="{{ $comic['series'] }}">
               </div>
-              <h3>{{ $comic['title'] }}</h3>
+              <h3>{{ $comic['series'] }}</h3>
             @endforeach
-        </div>
-        
-
+        </div>       
     </main>
 
 @endsection   

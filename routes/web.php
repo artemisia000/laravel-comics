@@ -245,6 +245,13 @@ Route::get('/news', function () {
     return view('news');
 })->name('news');
 
+Route::get('/com', function () {
+    return view('com');
+})->name('com');
+
+
+
+
 
 
 
