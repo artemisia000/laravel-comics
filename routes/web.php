@@ -13,6 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+//COMICS CARDS
+
 Route::get('/home', function () {
     $comics = [
         [
@@ -241,9 +243,13 @@ Route::get('/', function () {
 })->name('home');
 
 
+//NEWS 
+
 Route::get('/news', function () {
     return view('news');
 })->name('news');
+
+//COMICS
 
 Route::get('/com', function () {
     return view('com');

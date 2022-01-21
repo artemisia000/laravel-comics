@@ -2,29 +2,18 @@
 
 main{
     width: 100%;
-
-    .container {
-        width: 1000px;
-        display: flex;
-        flex-wrap: wrap;
-
-
-        li{
-            list-style: none;
-
-            h3{
-                font-size: $font-size;
-                text-transform: uppercase;
-                color: #fff;
-            }
-                img{
-                width: 160px;
-                height: 160px;
-            }
-
+ 
+        .card{ 
+            text-align: left;
+            color: #fff;
+            font-size:11px;
+            text-transform: uppercase;
+            text-align: left;
         }
-
-
+        
+        img{
+            width:160px;
+            height: 160px;
+        }
     }
-
-}
+ 
